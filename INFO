@@ -1,0 +1,19 @@
+UDP Client:
+    For use:
+    udp_client <host> [<port> <number_of_packets>]
+    Example:
+    client_udp myhost.ru 33333 1000
+    client_udp myhost.ru
+    client_udp myhost.ru 12345
+
+UDP Server:
+    For use:
+    server_udp [<port>]
+    Example:
+    server_udp 33333
+    server_udp
+
+Build platform:
+*Fedora release 14 (Laughlin)
+*Linux kernel 2.6.32-042test005.1.x86_64
+*gcc version 4.5.1 20100924 (Red Hat 4.5.1-4) (GCC)
