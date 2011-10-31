@@ -64,6 +64,7 @@ int main(int argc, char *argv[])
     		printf("Received packets per session: %d\n", session_packets_cnt);
     		printf("All received packets: %d\n", all_packets_cnt);
     		session_packets_cnt = 0;
+		memset(buf, 0, BUF_SIZE*sizeof(char));
     	    }
     	    else
     	    {
